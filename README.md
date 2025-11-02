@@ -123,7 +123,7 @@ The full project documentation, including figures, timing histograms, and detail
 
 The detailed internship report (including timing, area, and power optimization flows) is available below:
 
-[📘 **Click here to open the full PDF report**](./docs/SI_vision_Final_project_report.pdf)
+[📘 **Click here to open the full PDF report**](SI_vision_Final_project_report.pdf)
 
 > If the link doesn’t open inline, right-click and choose **“Open link in new tab”**.
 
