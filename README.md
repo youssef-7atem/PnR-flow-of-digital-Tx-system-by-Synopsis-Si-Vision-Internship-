@@ -118,36 +118,5 @@ The full project documentation, including figures, timing histograms, and detail
 
 <embed src="./SI_vision_Final_project_report.pdf" type="application/pdf" width="100%" height="800px" />
 
-> 💡 *If GitHub doesn’t render the PDF inline, click the badge above to open it in a new tab.*
 
----
 
-## 💻 Example TCL Snippet
-
-Here’s a simplified example of how the **PnR flow** is automated using **TCL scripting** in **Synopsys IC Compiler II**:
-
-```tcl
-# Compile for Timing Optimization Script
-
-set DESIGN "digital_tx"
-set WORK_DIR "./work_timing"
-set REPORT_DIR "./reports/timing"
-
-# Load design and technology files
-read_verilog ./rtl/${DESIGN}.v
-set_top_module ${DESIGN}
-
-# Load libraries and constraints
-read_libs ./libs/typical.lib
-read_sdc ./constraints/timing_constraints.sdc
-
-# Compilation for timing-driven optimization
-compile_ultra -timing_high_effort
-
-# Generate reports
-report_qor > ${REPORT_DIR}/qor_timing.rpt
-report_timing > ${REPORT_DIR}/timing_summary.rpt
-
-# Export synthesized netlist
-write -format verilog -output ${WORK_DIR}/${DESIGN}_timing_netlist.v
-[SI_vision_Final_project_report.pdf](https://github.com/user-attachments/files/23292275/SI_vision_Final_project_report.pdf)
