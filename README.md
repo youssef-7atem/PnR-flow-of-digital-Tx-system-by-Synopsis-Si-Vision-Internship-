@@ -116,7 +116,7 @@ The full project documentation, including figures, timing histograms, and detail
   </a>
 </p>
 
-<embed src="./SI_vision_Final_project_report.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="SI_vision_Final_project_report.pdf" type="application/pdf" width="100%" height="800px" />
 
 
 ## 🧾 Full Report
